@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/menuscript.js"></script>
+  </head>
+  <body>
+    <h1>Restaurante Burbujon</h1>
+    <div class="container">
+    <div class="main">
+      <div id="mi-slider" class="mi-slider">
+        <ul>
+          <li><a href="menu.html"><img src="images/menu.jpg" alt="imagen"><h4>Menu</h4></a></li>
+        </ul>
+        <ul>
+          <li><a href="plato.html"><img src="images/plato.jpg" alt="imagen"><h4>Platos Combinados</h4></a></li>
+        </ul>
+        <ul>
+          <li><a href="carta.html"><img src="images/carta.jpg" alt="imagen"><h4>Carta</h4></a></li>
+        </ul>
+        <ul>
+          <li><a href="postres.html"><img src="images/tarta.jpg" alt="imagen"><h4>Postres</h4></a></li>
+        </ul>
+        <nav>
+          <a href="#">Menu</a>
+          <a href="#">Platos combinados</a>
+          <a href="#">Carta</a>
+          <a href="#">Postres</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/jquery.menu.js"></script>
+  <script>
+    $(function() {
+
+      $( '#mi-slider' ).catslider();
+
+    });
+  </script>
+  </body>
+</html>
