@@ -14,7 +14,7 @@ h2{
   color: white;
   font-size: 35px;
 }
-p{
+#infantil{
   text-align: center;
   color: white;
   font-size: 25px;
@@ -22,4 +22,39 @@ p{
 .tag{
   color: black;
   font-size: 30px;
+}
+.imagen{
+  width: 400px;
+  height: 400px;
+}
+.grande{
+  display: flex;
+  width: 100%;
+}
+.plato1{
+  flex: 1;
+  border: 2.5px solid white;
+}
+.plato2{
+  flex: 1;
+  border: 2.5px solid white;
+}
+.grande2{
+  display: flex;
+}
+.plato3{
+  flex: 1;
+  border: 2.5px solid white;
+}
+.plato4{
+  flex: 1;
+  border: 2.5px solid white;
+}
+h3{
+  color: white;
+  font-size: 28px;
+}
+.platos{
+  color: white;
+  font-size: 20px;
 }
