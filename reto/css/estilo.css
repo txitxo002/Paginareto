@@ -2,8 +2,24 @@ body{
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  background-color: lightblue;
 }
 h1{
   text-align: center;
+  color: white;
+  list-style: none;
+}
+h2{
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.tag{
+  color: black;
+  font-size: 30px;
 }
