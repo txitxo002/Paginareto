@@ -58,3 +58,30 @@ h3{
   color: white;
   font-size: 20px;
 }
+
+th{
+  font-size: 35px;
+  color: white;
+  margin-bottom: 10px;
+}
+tr{
+  font-size: 20px;
+  color: white;
+}
+td{
+  width: 50%;
+  text-align: center;
+}
+.mySlides{
+  width: 500px;
+  height: 500px;
+}
+#divslider{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+#tituloslider{
+  float: left;
+  margin-left: 20px;
+}
