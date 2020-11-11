@@ -21,7 +21,7 @@ h2{
 }
 .tag{
   color: black;
-  font-size: 30px;
+  font-size: 35px;
 }
 .imagen{
   width: 400px;
@@ -72,16 +72,26 @@ td{
   width: 50%;
   text-align: center;
 }
+.flex-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .mySlides{
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
 }
 #divslider{
   display: flex;
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 20px;
 }
 #tituloslider{
   float: left;
   margin-left: 20px;
+}
+
+.titulopostres{
+  text-align: center;
 }
