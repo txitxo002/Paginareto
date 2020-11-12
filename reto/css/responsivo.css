@@ -1,0 +1,34 @@
+/*Movil*/
+@media (max-width:576px){
+  .imagenmenu{
+    visibility: hidden;
+  }
+}
+
+/*Tablet*/
+@media (min-width:577px) and (max-width:768px){
+  .imagenmenu{
+    visibility: hidden;
+  }
+}
+
+/*portatil*/
+@media (min-width:769px) and (max-width:992px){
+  .imagenmenu{
+    visibility: visible;
+  }
+}
+
+/*pc*/
+@media (min-width:993px) and (max-width:1200px){
+  .imagenmenu{
+    visibility: visible;
+  }
+}
+
+/*pantallas grandes y televisores*/
+@media (min-width:1201px){
+  .imagenmenu{
+    visibility: visible;
+  }
+}

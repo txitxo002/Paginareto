@@ -24,31 +24,27 @@ h2{
   font-size: 35px;
 }
 .imagen{
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 .grande{
   display: flex;
   width: 100%;
 }
 .plato1{
-  flex: 1;
-  border: 2.5px solid white;
+  flex: 2;
 }
 .plato2{
   flex: 1;
-  border: 2.5px solid white;
 }
 .grande2{
   display: flex;
 }
 .plato3{
-  flex: 1;
-  border: 2.5px solid white;
+  flex: 2;
 }
 .plato4{
   flex: 1;
-  border: 2.5px solid white;
 }
 h3{
   color: white;
@@ -94,4 +90,9 @@ td{
 
 .titulopostres{
   text-align: center;
+}
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

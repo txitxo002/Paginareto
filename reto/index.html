@@ -2,27 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsivo.css">
     <script src="js/menuscript.js"></script>
+    <title></title>
   </head>
-  <body style="background-image: url(images/fondo.jpg);">
+  <body style="background-image: url(images/fondo2.jpg);">
     <h1><a href="index.html">Restaurante Burbujon</h1></a>
     <div class="container">
     <div class="main">
       <div id="mi-slider" class="mi-slider">
         <ul>
-          <li><a href="menu.html"><img src="images/menu.jpg" alt="imagen"><h4 class="pep">Menu</h4></a></li>
+          <li><a href="menu.html"><img class="imagenmenu" src="images/menu.jpg" alt="imagen"><h4 class="pep">Menu</h4></a></li>
         </ul>
         <ul>
-          <li><a href="platos.html"><img src="images/plato.jpg" alt="imagen"><h4 class="pep">Platos Combinados</h4></a></li>
+          <li><a href="platos.html"><img class="imagenmenu" src="images/plato.jpg" alt="imagen"><h4 class="pep">Platos Combinados</h4></a></li>
         </ul>
         <ul>
-          <li><a href="carta.html"><img src="images/burguer.jpg" alt="imagen"><h4 class="pep">Hamburguesas</h4></a></li>
+          <li><a href="carta.html"><img class="imagenmenu" src="images/burguer.jpg" alt="imagen"><h4 class="pep">Hamburguesas</h4></a></li>
         </ul>
         <ul>
-          <li><a href="postres.html"><img src="images/tarta.jpg" alt="imagen"><h4 class="pep">Postres/Bebidas</h4></a></li>
+          <li><a href="postres.html"><img class="imagenmenu" src="images/tarta.jpg" alt="imagen"><h4 class="pep">Postres/Bebidas</h4></a></li>
         </ul>
         <nav>
           <a href="#">Menu</a>
@@ -42,5 +44,21 @@
 
     });
   </script>
+  <div style="text-align:center;padding:1em 0;"><h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3128026"><span style="color:gray;">Encuentranos aqui</span><br/>Made in Bilbao</a></h2> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=large&timezone=Europe%2FMadrid" width="100%" height="140" frameborder="0" seamless></iframe></div>
+  <div class="flexbox">
+  <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3" class="mapa">
+  <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+      var setting = {"height":450,"width":603,"zoom":13,"queryString":"Bilbao, España","place_id":"ChIJuYlLZidOTg0RRaaVHsSsNGU","satellite":true,"centerCoord":[43.263328976464805,-2.9334785693115495],"cid":"0x6534acc41e95a645","lang":"es","cityUrl":"/spain/vizcaya-35609","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"117078"};
+      var d = document;
+      var s = d.createElement('script');
+      s.src = 'https://1map.com/js/script-for-user.js?embed_id=117078';
+      s.async = true;
+      s.onload = function (e) {
+        window.OneMap.initMap(setting)
+      };
+      var to = d.getElementsByTagName('script')[0];
+      to.parentNode.insertBefore(s, to);
+    })();</script><a href="https://1map.com/es/map-embed?embed_id=117078">1 Map</a></div></div>
+
   </body>
 </html>
