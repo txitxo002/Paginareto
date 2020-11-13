@@ -1,3 +1,7 @@
+/*Este archivo sirve para ocultar imagenes cuando la resolucion de las pantallas
+baja como por ejemplo en un movil, una tablet, o por lo contrario para aumentar los tamaños de los elementos
+en pantallas como televisiones, y pantallas de mas resolucion */
+
 /*Movil*/
 @media (max-width:576px){
   .imagenmenu{

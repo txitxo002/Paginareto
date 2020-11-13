@@ -1,8 +1,10 @@
+/*Esto sirve para quitar los margin-top, y demas del body de la pagina*/
 body{
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+/*Esto sirve para darle estilo a los titulos (h1,h2,h3... etc)*/
 h1{
   text-align: center;
   color: white;
@@ -14,6 +16,7 @@ h2{
   color: white;
   font-size: 35px;
 }
+/*Esto sirve para darle estilo al menu del dia que creamos en la seccion de menu.html es un id para los textos del menu*/
 #infantil{
   text-align: center;
   color: white;
@@ -23,6 +26,7 @@ h2{
   color: black;
   font-size: 35px;
 }
+/*Estos class que se ven reflejados aqui son para darle estilo y hacer flex a las columnas de fotos y textos de nuestros platos combinados*/
 .imagen{
   width: 300px;
   height: 300px;
@@ -54,7 +58,8 @@ h3{
   color: white;
   font-size: 20px;
 }
-
+/*Estos th, tr, y td son los elementos de la tabla y con este codigo de aqui abajo damos estilo a la tabla
+Este estilo tambien sirve para dar estilo a la tabla que tenemos en la categoria de postres*/
 th{
   font-size: 35px;
   color: white;
@@ -68,6 +73,7 @@ td{
   width: 50%;
   text-align: center;
 }
+/*Esto es el container del slider y con este codigo de aqui abajo tocamos el flex y el estilo del slider*/
 .flex-container{
   width: 100%;
   display: flex;
@@ -87,7 +93,6 @@ td{
   float: left;
   margin-left: 20px;
 }
-
 .titulopostres{
   text-align: center;
 }
